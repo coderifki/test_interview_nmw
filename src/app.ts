@@ -1,4 +1,4 @@
-import { PORT } from './iqra.json';
+import { PORT } from './env.json';
 import 'source-map-support/register';
 import express, { Express, Request, Response, NextFunction } from "express";
 import createError from "http-errors"
